@@ -1,0 +1,59 @@
+@font-face{
+    font-family: Calculadora;
+    src: url('Fuentes/Calculator.ttf');
+}
+body{
+    width: 100%;
+}
+.calculadora{
+    width: 380px;
+    height: 310px;
+    background-color:#bdc3c7;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    border-radius: 8px;
+}
+.container{
+    /* border: 1px solid black; */
+    margin: 0.5em 0.5em;
+    padding: 0.3em 0.3em;
+}
+.calculadora_pantalla{
+    width: 100%;
+    height: 70px;
+    background-color:#f1c40f;
+    border: 2px solid gold;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-family: Calculadora;
+}
+.calculadora_pantalla_adentro{
+    color: black;
+    font-size: 46px;
+    display: block;
+    margin-top: 5%;
+    margin-left: 70%;
+    font-weight: 500;
+}
+.calculadora_numeros{
+    width: 100%;
+    
+}
+.calculadora_numeros button{
+    width: 23%;
+    height: 30px;
+    padding: 0.4em;
+    margin: 0.2em 0.1em; 
+    border-radius: 6px;
+    background-color: #ecf0f1;
+}
+.calculadora_numeros button:hover{
+    background-color: #bdc3c7;
+}
+.calculadora_numero_igual{
+    height: 35px !important;
+}
+.calculadora_numero_limpiar{
+    background-color: #c0392b !important;
+}
